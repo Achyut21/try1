@@ -28,4 +28,20 @@
         app:srcCompat="@android:drawable/star_big_on"
         android:onClick="starBtn"/>
 
+    <Button
+        android:id="@+id/Makeitrainbutton"
+        android:layout_width="166dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="484dp"
+        android:background="#1C1818"
+        android:backgroundTint="#BDC158"
+        android:onClick="increment"
+        android:text="hi"
+        android:textAllCaps="false"
+        android:textColor="#E80E0E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#DA1919" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
